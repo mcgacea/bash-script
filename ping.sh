@@ -1,4 +1,5 @@
 #!/bin/bash
+echo -n > host_attivi.txt
 for subnet in $@
 do
     for host in $(seq 1 254)
